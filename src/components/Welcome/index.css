@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e293b;
+  min-height: 100vh;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.heading {
+  font-family: 'Bree Serif';
+  font-size: 40px;
+  font-weight: 600;
+  color: #f0bb03;
+}
+.description {
+  font-family: 'Bree Serif';
+  font-size: 22px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.subscribe-button {
+  font-family: 'Bree Serif';
+  font-size: 15px;
+  color: #1e293b;
+  background-color: #ffffff;
+  height: 35px;
+  min-width: 70px;
+
+  border-radius: 10px;
+  border: none;
+}
